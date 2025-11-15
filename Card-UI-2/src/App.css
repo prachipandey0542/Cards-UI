@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+
+.parent{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.card{
+  height: 370px;
+  width: 320px;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.top .image{
+  height: 60px;
+  width: 60px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 2px solid rgba(128, 128, 128, 0.321);
+}
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.top button{
+  height: 30px;
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(128, 128, 128, 0.642);
+  background-color: #fff;
+  font-weight: 550;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 2px solid rgba(128, 128, 128, 0.17);
+}
+
+.mid h3{
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.mid h3 span{
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.642);
+
+}
+
+.mid h2{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.mid .tag{
+  display: flex;
+  gap: 6px;
+  
+
+}
+.mid .tag h4{
+  background-color: rgba(128, 128, 128, 0.256);
+  font-size: 14px;
+  text-align: center;
+  padding: 3px 6px;
+  font-weight: lighter;
+  color: black;
+  border-radius: 5px;
+
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgba(128, 128, 128, 0.237);
+  align-items: center;
+  padding-top: 15px;
+
+}
+
+.bottom div h3{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.bottom div p{
+  color: rgba(128, 128, 128, 0.711);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.bottom button{
+  background-color: black;
+  color: #fff;
+  font-weight: lighter;
+  width: 100px;
+  height: 33px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+}
+
+
+
+
+
+
