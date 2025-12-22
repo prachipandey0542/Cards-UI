@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const jobs = [
     {
-      brandLogo: "https://logo.clearbit.com/meta.com",
+      brandLogo: `/assets/images/meta.png`,
       companyName: "Meta",
       datePosted: "5 days ago",
       post: "Frontend Developer",
@@ -14,7 +14,7 @@ function App() {
       location: "Mumbai, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/apple.com",
+      brandLogo: `/assets/images/apple.png`,
       companyName: "Apple",
       datePosted: "2 weeks ago",
       post: "iOS Engineer",
@@ -24,7 +24,7 @@ function App() {
       location: "Hyderabad, India",
     },
     {
-      brandLogo: "https://www.pngmart.com/files/Amazon-Logo-PNG-Image.png",
+      brandLogo: `/assets/images/amazon.png`,
       companyName: "Amazon",
       datePosted: "10 days ago",
       post: "Data Analyst",
@@ -34,7 +34,7 @@ function App() {
       location: "Bengaluru, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/netflix.com",
+      brandLogo: `/assets/images/netflix.png`,
       companyName: "Netflix",
       datePosted: "3 weeks ago",
       post: "Cloud Engineer",
@@ -44,7 +44,7 @@ function App() {
       location: "Remote",
     },
     {
-      brandLogo: "https://logo.clearbit.com/google.com",
+      brandLogo: `/assets/images/google.png`,
       companyName: "Google",
       datePosted: "7 days ago",
       post: "UI/UX Designer",
@@ -54,7 +54,7 @@ function App() {
       location: "Noida, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/microsoft.com",
+      brandLogo: `/assets/images/microsoft.png`,
       companyName: "Microsoft",
       datePosted: "4 days ago",
       post: "Software Engineer",
@@ -64,7 +64,7 @@ function App() {
       location: "Bengaluru, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/tesla.com",
+      brandLogo: `/assets/images/tesla.png`,
       companyName: "Tesla",
       datePosted: "6 weeks ago",
       post: "React Developer",
@@ -74,7 +74,7 @@ function App() {
       location: "Gurugram, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/nvidia.com",
+      brandLogo: `/assets/images/nvidia.png`,
       companyName: "NVIDIA",
       datePosted: "9 days ago",
       post: "Machine Learning Engineer",
@@ -84,7 +84,7 @@ function App() {
       location: "Remote",
     },
     {
-      brandLogo: "https://logo.clearbit.com/oracle.com",
+      brandLogo: `/assets/images/oracle.png`,
       companyName: "Oracle",
       datePosted: "1 week ago",
       post: "Java Developer",
@@ -94,8 +94,7 @@ function App() {
       location: "Chennai, India",
     },
     {
-      brandLogo:
-        "https://static.vecteezy.com/system/resources/previews/060/100/974/non_2x/adobe-logo-square-rounded-adobe-logo-adobe-logo-free-download-free-png.png",
+      brandLogo: `/assets/images/adobe.png`,
       companyName: "Adobe",
       datePosted: "8 weeks ago",
       post: "DevOps Engineer",
@@ -105,7 +104,7 @@ function App() {
       location: "Mumbai, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/spacex.com",
+      brandLogo: `/assets/images/spaceX.png`,
       companyName: "SpaceX",
       datePosted: "3 days ago",
       post: "Backend Engineer",
@@ -115,7 +114,7 @@ function App() {
       location: "Remote",
     },
     {
-      brandLogo: "https://logo.clearbit.com/openai.com",
+      brandLogo: `/assets/images/openAI.png`,
       companyName: "OpenAI",
       datePosted: "2 weeks ago",
       post: "Full Stack Developer",
@@ -125,7 +124,7 @@ function App() {
       location: "San Francisco, USA",
     },
     {
-      brandLogo: "https://logo.clearbit.com/uber.com",
+      brandLogo: `/assets/images/uberlogo.png`,
       companyName: "Uber",
       datePosted: "1 week ago",
       post: "Data Engineer",
@@ -135,7 +134,7 @@ function App() {
       location: "Bengaluru, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/intel.com",
+      brandLogo: `/assets/images/intel.png`,
       companyName: "Intel",
       datePosted: "5 days ago",
       post: "Embedded Systems Engineer",
@@ -145,7 +144,7 @@ function App() {
       location: "Pune, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/salesforce.com",
+      brandLogo: `/assets/images/salesforce.png`,
       companyName: "Salesforce",
       datePosted: "4 weeks ago",
       post: "CRM Developer",
@@ -155,7 +154,7 @@ function App() {
       location: "Hyderabad, India",
     },
     {
-      brandLogo: "https://logo.clearbit.com/samsung.com",
+      brandLogo: `/assets/images/samsung.png`,
       companyName: "Samsung",
       datePosted: "9 days ago",
       post: "Android Developer",
